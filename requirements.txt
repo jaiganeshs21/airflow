@@ -1,1 +1,1 @@
-apache-airflow==2.8.0
+everstage_python==1.0.0
