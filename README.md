@@ -10,8 +10,9 @@ Avoid integrating any business logic directly into this repository.
 
 To construct the Docker images, execute the following command:
 
-```bash
+```
 docker-compose -f docker-compose-local-dev-live.yml up --build --remove-orphans
+```
 
 URL: localhost:8080
 

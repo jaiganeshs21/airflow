@@ -2,6 +2,7 @@ from datetime import datetime
 from airflow.operators.python_operator import PythonOperator
 from airflow import DAG
 
+
 def print_dag_details(dag):
     print("inside_printing")
     for task_id, task in dag.task_dict.items():
@@ -13,7 +14,7 @@ def print_dag_details(dag):
 
 
 def test_function():
-    print("Hello_JAI")
+    print("Inside test function")
 
 
 def generate_dag(workflow_id):
